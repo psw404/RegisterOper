@@ -47,7 +47,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(44, 33);
+            this.label1.Location = new System.Drawing.Point(29, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 12);
             this.label1.TabIndex = 0;
@@ -55,14 +55,14 @@
             // 
             // tbxRegName
             // 
-            this.tbxRegName.Location = new System.Drawing.Point(31, 70);
+            this.tbxRegName.Location = new System.Drawing.Point(167, 27);
             this.tbxRegName.Name = "tbxRegName";
             this.tbxRegName.Size = new System.Drawing.Size(135, 21);
             this.tbxRegName.TabIndex = 1;
             // 
             // tbxRegDesc
             // 
-            this.tbxRegDesc.Location = new System.Drawing.Point(241, 70);
+            this.tbxRegDesc.Location = new System.Drawing.Point(167, 70);
             this.tbxRegDesc.Multiline = true;
             this.tbxRegDesc.Name = "tbxRegDesc";
             this.tbxRegDesc.Size = new System.Drawing.Size(135, 21);
@@ -71,7 +71,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(252, 33);
+            this.label2.Location = new System.Drawing.Point(29, 73);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(113, 12);
             this.label2.TabIndex = 2;
@@ -79,15 +79,15 @@
             // 
             // tbxRegPath
             // 
-            this.tbxRegPath.Location = new System.Drawing.Point(443, 70);
+            this.tbxRegPath.Location = new System.Drawing.Point(241, 119);
             this.tbxRegPath.Name = "tbxRegPath";
-            this.tbxRegPath.Size = new System.Drawing.Size(135, 21);
+            this.tbxRegPath.Size = new System.Drawing.Size(421, 21);
             this.tbxRegPath.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(423, 33);
+            this.label3.Location = new System.Drawing.Point(29, 122);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(185, 12);
             this.label3.TabIndex = 4;
@@ -95,7 +95,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(713, 117);
+            this.btnSave.Location = new System.Drawing.Point(713, 155);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 6;
@@ -105,7 +105,7 @@
             // 
             // btnDel
             // 
-            this.btnDel.Location = new System.Drawing.Point(713, 180);
+            this.btnDel.Location = new System.Drawing.Point(713, 217);
             this.btnDel.Name = "btnDel";
             this.btnDel.Size = new System.Drawing.Size(75, 23);
             this.btnDel.TabIndex = 8;
@@ -117,14 +117,14 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 12;
-            this.listBox1.Location = new System.Drawing.Point(31, 117);
+            this.listBox1.Location = new System.Drawing.Point(31, 155);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(631, 340);
             this.listBox1.TabIndex = 9;
             // 
             // btnCopy
             // 
-            this.btnCopy.Location = new System.Drawing.Point(713, 434);
+            this.btnCopy.Location = new System.Drawing.Point(713, 472);
             this.btnCopy.Name = "btnCopy";
             this.btnCopy.Size = new System.Drawing.Size(75, 23);
             this.btnCopy.TabIndex = 10;
@@ -134,7 +134,7 @@
             // 
             // tbxDllPath
             // 
-            this.tbxDllPath.Location = new System.Drawing.Point(653, 70);
+            this.tbxDllPath.Location = new System.Drawing.Point(527, 27);
             this.tbxDllPath.Name = "tbxDllPath";
             this.tbxDllPath.Size = new System.Drawing.Size(135, 21);
             this.tbxDllPath.TabIndex = 12;
@@ -143,7 +143,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(675, 33);
+            this.label4.Location = new System.Drawing.Point(404, 30);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(89, 12);
             this.label4.TabIndex = 11;
