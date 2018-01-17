@@ -19,7 +19,7 @@ namespace RegistryOperate
 
             tbxRegDesc.Text = "ppp";
             tbxRegName.Text = "psw_plugin";
-            tbxRegPath.Text = @"SOFTWARE\Autodesk\AutoCAD\R18.2\ACAD-A001:804\Applications\";
+            tbxRegPath.Text = @"SOFTWARE\Autodesk\AutoCAD\R18.2\ACAD-A001:804\Applications";
         }
 
 
