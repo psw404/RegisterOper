@@ -9,17 +9,22 @@ namespace RegistryOperate
 {
     public partial class Form1 : Form
     {
+        //注册的名称
         private static string name = null;
+        //描述
         private static string desc = null;
+        //注册表中的路径
         private static string path = null;
+        //插件的路径
         private static string dllPath = null;
+
         public Form1()
         {
             InitializeComponent();
 
-            tbxRegDesc.Text = "ppp";
+            tbxRegDesc.Text = "this is just a description";
             tbxRegName.Text = "psw_plugin";
-            tbxRegPath.Text = @"SOFTWARE\Autodesk\AutoCAD\R18.2\ACAD-A001:804\Applications";
+            tbxRegPath.Text = @"SOFTWARE\Autodesk\AutoCAD\R18.0\ACAD-8001:804\Applications";
         }
 
 
@@ -167,6 +172,16 @@ namespace RegistryOperate
             }
         }
 
-
+        private void radioButton2010_CheckedChanged(object sender, EventArgs e)
+        {
+            if(radioButton2010.Checked == true)
+            {
+                path = @"SOFTWARE\Autodesk\AutoCAD\R18.0\ACAD-8001:804\Applications";
+            }
+            else
+            {
+                path = @"SOFTWARE\Autodesk\AutoCAD\R18.2\ACAD-A001:804\Applications";
+            }
+        }
     }
 }

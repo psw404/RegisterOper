@@ -42,6 +42,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.radioButton2010 = new System.Windows.Forms.RadioButton();
+            this.radioButton2012 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // label1
@@ -153,11 +155,36 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // radioButton2010
+            // 
+            this.radioButton2010.AutoSize = true;
+            this.radioButton2010.Checked = true;
+            this.radioButton2010.Location = new System.Drawing.Point(406, 73);
+            this.radioButton2010.Name = "radioButton2010";
+            this.radioButton2010.Size = new System.Drawing.Size(89, 16);
+            this.radioButton2010.TabIndex = 13;
+            this.radioButton2010.TabStop = true;
+            this.radioButton2010.Text = "autocad2010";
+            this.radioButton2010.UseVisualStyleBackColor = true;
+            this.radioButton2010.CheckedChanged += new System.EventHandler(this.radioButton2010_CheckedChanged);
+            // 
+            // radioButton2012
+            // 
+            this.radioButton2012.AutoSize = true;
+            this.radioButton2012.Location = new System.Drawing.Point(567, 73);
+            this.radioButton2012.Name = "radioButton2012";
+            this.radioButton2012.Size = new System.Drawing.Size(89, 16);
+            this.radioButton2012.TabIndex = 13;
+            this.radioButton2012.Text = "autocad2012";
+            this.radioButton2012.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(854, 507);
+            this.Controls.Add(this.radioButton2012);
+            this.Controls.Add(this.radioButton2010);
             this.Controls.Add(this.tbxDllPath);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnCopy);
@@ -194,6 +221,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.RadioButton radioButton2010;
+        private System.Windows.Forms.RadioButton radioButton2012;
     }
 }
 
