@@ -174,7 +174,7 @@ namespace RegistryOperate
 
         private void radioButton2010_CheckedChanged(object sender, EventArgs e)
         {
-            if(radioButton2010.Checked == true)
+            if (radioButton2010.Checked == true)
             {
                 path = @"SOFTWARE\Autodesk\AutoCAD\R18.0\ACAD-8001:804\Applications";
             }
@@ -182,6 +182,7 @@ namespace RegistryOperate
             {
                 path = @"SOFTWARE\Autodesk\AutoCAD\R18.2\ACAD-A001:804\Applications";
             }
+            tbxRegPath.Text = path;
         }
     }
 }
